@@ -33,7 +33,7 @@ section{
 #hero-bnt{
     text-decoration: none;
     background-image: linear-gradient(180deg, green, blue, yellow);
-    padding:20px;
+    padding:15px;
     color: #fff;
     margin-bottom: 10px;
     border-radius:30px;
@@ -62,4 +62,57 @@ section{
     font-weight: 800;
 }
 
-/*midel-footer-area*/
+
+/*services-area design here*/
+
+.services{
+   
+    padding: 50px 0;
+
+}
+ .services.services> h3{
+    font-size: 40px;
+    color:black;
+    margin:0;
+    padding: 40px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.services.services> p{
+    font-size: 19px;
+    color:black;
+    width: 58%;
+    margin: 10px auto;
+    text-align: center;
+    
+}
+
+.services-boxes{
+   
+    margin-top: 50px;
+    
+}
+.services-boxes .box{
+    width:25%;
+    display: inline-block;
+    padding:30px;
+    border-radius: 18px;
+    box-shadow:10px 10px 40px #D5D8DC; 
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+ 
+}
+.box img{
+    width: 100%;
+    
+    border-radius: 20px;
+   
+}
+.services-boxes.box P{
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    
+}
