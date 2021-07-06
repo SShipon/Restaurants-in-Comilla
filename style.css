@@ -2,22 +2,26 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
+    
 }
 /*heder-area*/
 .heder-area{
     background-image: url("img/shapes/7.png");
     background-repeat: no-repeat;
-    padding-bottom: 20px;
+    padding-bottom:30px;
 }
 h1{
     font-size:55px;
+}
+.heder-area p{
+    line-height: 1.6;
 }
 .midel-span{
     color: orange;
 }
 section{
     display:flex;
-    margin-bottom: 110px;
+    margin-bottom: 100px;
 }
 .container{
     width: 50%;
@@ -28,15 +32,34 @@ section{
 }
 #hero-bnt{
     text-decoration: none;
-    background: #033E3E;
+    background-image: linear-gradient(180deg, green, blue, yellow);
     padding:20px;
     color: #fff;
     margin-bottom: 10px;
     border-radius:30px;
+    font-weight: 800;
 }
-.middle{
+.middle-area{
     background-image: url("img/shapes/Frame 58.jpg");
     background-repeat: no-repeat;
+    padding:50px;
+}
+.container h2{
+    font-size:30px;
+    font-weight:bold;
     padding-bottom: 20px;
 }
+.middle-area p{
+    line-height: 1.6;
+}
+.middle-area a{
+    background-image: linear-gradient(180deg, red, yellow);
+    padding:20px;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 30px;
+    border-radius:30px;
+    font-weight: 800;
+}
 
+/*midel-footer-area*/
