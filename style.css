@@ -1,0 +1,42 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/*heder-area*/
+.heder-area{
+    background-image: url("img/shapes/7.png");
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+h1{
+    font-size:55px;
+}
+.midel-span{
+    color: orange;
+}
+section{
+    display:flex;
+    margin-bottom: 110px;
+}
+.container{
+    width: 50%;
+    padding-left: 10%;
+}
+.container img{
+    width: 80%;
+}
+#hero-bnt{
+    text-decoration: none;
+    background: #033E3E;
+    padding:20px;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius:30px;
+}
+.middle{
+    background-image: url("img/shapes/Frame 58.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
